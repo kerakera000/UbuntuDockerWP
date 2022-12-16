@@ -5,9 +5,9 @@
 1. ###docker-compose.yml内の下記の番号を変える。  
 　asterisk 初めて使うか毎回dockerデータベース消してるなら変えなくてもいいかも
 
-    wp:  
-        ports:  
-            - '8080:80'   
+　　　　wp:  
+　　　　　ports:  
+　　　　　　- '8080:80'   
 
 2. ###ターミナルで　`sudo docker-compose up -d`　のみ
 
