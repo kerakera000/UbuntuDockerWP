@@ -21,6 +21,9 @@
 * dockerデータベース削除  
     `docker-compose down --volumes`
 
+* vscodeで編集権限がなくて編集できない時  
+    `sudo chown -R $USER:$USER .`
+
 * マウントが出来てるかの確認手順  
 　1. `docker ps` でターミナルでコンテナが上がっているかの確認  
 　2. `docker exec -it {wpの方のcontainer_id} bash` 打つ  
