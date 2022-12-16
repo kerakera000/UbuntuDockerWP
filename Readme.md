@@ -22,7 +22,7 @@
     `docker-compose down --volumes`
 
 * マウントが出来てるかの確認手順  
-    1. `docker ps` でターミナルでコンテナが上がっているかの確認  
-    2. `docker exec -it {wpの方のcontainer_id} bash` 打つ  
-    3. `cd ./wp-content/themes/`　でディレクトリ移動  
-    4. `ls`　で表示された中に*testsite*があるか確認する  
+　1. `docker ps` でターミナルでコンテナが上がっているかの確認  
+　2. `docker exec -it {wpの方のcontainer_id} bash` 打つ  
+　3. `cd ./wp-content/themes/`　でディレクトリ移動  
+　4. `ls`　で表示された中に*testsite*があるか確認する  
