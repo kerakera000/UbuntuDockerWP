@@ -1,15 +1,15 @@
 # ubuntu WP開発用　テンプレートです
 
-##使い方
+##　使い方
 
-1. ###docker-compose.yml内の下記の番号を変える。  
+1. ###　docker-compose.yml内の下記の番号を変える。  
 　asterisk 初めて使うか毎回dockerデータベース消してるなら変えなくてもいいかも
 
 　　　　wp:  
 　　　　　ports:  
 　　　　　　- '8080:80'   
 
-2. ###ターミナルで　`sudo docker-compose up -d`　のみ
+2. ###　ターミナルで　`sudo docker-compose up -d`　のみ
 
 *testsiteの中身をマウントしているからそこにオリジナルテーマ内容を書き込む*
 
