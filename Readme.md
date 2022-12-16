@@ -24,6 +24,10 @@
 * vscodeで編集権限がなくて編集できない時  
     `sudo chown -R $USER:$USER .`
 
+* プラグインをインストール出来るようにする方法  
+　1. `docker exec -it コンテナ名 bash`
+　1. `chown -R www-data:www-data *`
+
 * マウントが出来てるかの確認手順  
 　1. `docker ps` でターミナルでコンテナが上がっているかの確認  
 　2. `docker exec -it {wpの方のcontainer_id} bash` 打つ  
