@@ -22,7 +22,7 @@
     `docker-compose down --volumes`
 
 * vscodeで編集権限がなくて編集できない時  
-    `sudo chown -R $USER:$USER .`
+    `sudo chmod -R 777 ./`
 
 * プラグインをインストール出来るようにする方法  
 　1. `docker exec -it コンテナ名 bash`
