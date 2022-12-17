@@ -25,8 +25,11 @@
     `sudo chmod -R 777 ./`
 
 * プラグインをインストール出来るようにする方法  
-　1. `docker exec -it コンテナ名 bash`
-　1. `chown -R www-data:www-data *`
+    1. `docker exec -it コンテナ名 bash`
+    2. `chown -R www-data:www-data *`
+
+* cssが反映されない場合の対応  
+    `shift + f5`のスーパーリロード
 
 * マウントが出来てるかの確認手順  
 　1. `docker ps` でターミナルでコンテナが上がっているかの確認  
